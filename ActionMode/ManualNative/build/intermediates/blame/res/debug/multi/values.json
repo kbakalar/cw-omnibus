@@ -1,0 +1,163 @@
+[
+    {
+        "outputFile": "/Users/leebakalar/AndroidStudioProjects/cw-omnibus-ken/ActionMode/ManualNative/build/intermediates/res/merged/debug/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 39,
+                    "endOffset": 90
+                },
+                "from": {
+                    "file": "/Users/leebakalar/AndroidStudioProjects/cw-omnibus-ken/ActionMode/ManualNative/res/values/strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 2,
+                        "startOffset": 229,
+                        "endColumn": 37,
+                        "endOffset": 264
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 95,
+                    "endColumn": 71,
+                    "endOffset": 162
+                },
+                "from": {
+                    "file": "/Users/leebakalar/AndroidStudioProjects/cw-omnibus-ken/ActionMode/ManualNative/res/values/strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 2,
+                        "startOffset": 267,
+                        "endColumn": 69,
+                        "endOffset": 334
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 167,
+                    "endColumn": 35,
+                    "endOffset": 198
+                },
+                "from": {
+                    "file": "/Users/leebakalar/AndroidStudioProjects/cw-omnibus-ken/ActionMode/ManualNative/res/values/strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 2,
+                        "startOffset": 157,
+                        "endColumn": 33,
+                        "endOffset": 188
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 203,
+                    "endColumn": 53,
+                    "endOffset": 252
+                },
+                "from": {
+                    "file": "/Users/leebakalar/AndroidStudioProjects/cw-omnibus-ken/ActionMode/ManualNative/res/values/strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 2,
+                        "startOffset": 53,
+                        "endColumn": 51,
+                        "endOffset": 102
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 257,
+                    "endColumn": 53,
+                    "endOffset": 306
+                },
+                "from": {
+                    "file": "/Users/leebakalar/AndroidStudioProjects/cw-omnibus-ken/ActionMode/ManualNative/res/values/strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 2,
+                        "startOffset": 105,
+                        "endColumn": 51,
+                        "endOffset": 154
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 311,
+                    "endColumn": 39,
+                    "endOffset": 346
+                },
+                "from": {
+                    "file": "/Users/leebakalar/AndroidStudioProjects/cw-omnibus-ken/ActionMode/ManualNative/res/values/strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 2,
+                        "startOffset": 191,
+                        "endColumn": 37,
+                        "endOffset": 226
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 351,
+                    "endLine": 9,
+                    "endColumn": 10,
+                    "endOffset": 419
+                },
+                "from": {
+                    "file": "/Users/leebakalar/AndroidStudioProjects/cw-omnibus-ken/ActionMode/ManualNative/res/values/styles.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 2,
+                        "startOffset": 53,
+                        "endLine": 3,
+                        "endColumn": 10,
+                        "endOffset": 121
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 424,
+                    "endLine": 12,
+                    "endColumn": 10,
+                    "endOffset": 573
+                },
+                "from": {
+                    "file": "/Users/leebakalar/AndroidStudioProjects/cw-omnibus-ken/ActionMode/ManualNative/res/values/styles.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 2,
+                        "startOffset": 124,
+                        "endLine": 6,
+                        "endColumn": 10,
+                        "endOffset": 273
+                    }
+                }
+            }
+        ]
+    }
+]

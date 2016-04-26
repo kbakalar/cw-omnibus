@@ -9,7 +9,7 @@
   language governing permissions and limitations under the License.
 	
   From _The Busy Coder's Guide to Android Development_
-    http://commonsware.com/Android
+    https://commonsware.com/Android
  */
 
 package com.commonsware.android.dbasset;
@@ -34,7 +34,8 @@ public class ConstantsFragment extends ListFragment implements
     DialogInterface.OnClickListener {
   private DatabaseHelper db=null;
   private Cursor current=null;
-  
+  private AsyncTask task=null;
+
   @Override
   public void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
@@ -59,16 +60,21 @@ public class ConstantsFragment extends ListFragment implements
 
     if (current==null) {
       db=new DatabaseHelper(getActivity());
-      new LoadCursorTask().execute();
+      task=new LoadCursorTask().execute();
     }
   }
 
+
   @Override
   public void onDestroy() {
-    super.onDestroy();
+    if (task != null) {
+      task.cancel(false);
+    }
 
     ((CursorAdapter)getListAdapter()).getCursor().close();
     db.close();
+
+    super.onDestroy();
   }
 
   @Override
@@ -107,13 +113,15 @@ public class ConstantsFragment extends ListFragment implements
     values.put(DatabaseHelper.TITLE, title.getText().toString());
     values.put(DatabaseHelper.VALUE, value.getText().toString());
 
-    new InsertTask().execute(values);
+    task=new InsertTask().execute(values);
   }
+
 
   abstract private class BaseTask<T> extends AsyncTask<T, Void, Cursor> {
     @Override
     public void onPostExecute(Cursor result) {
       ((CursorAdapter)getListAdapter()).changeCursor(result);
+      task=null;
     }
 
     protected Cursor doQuery() {
