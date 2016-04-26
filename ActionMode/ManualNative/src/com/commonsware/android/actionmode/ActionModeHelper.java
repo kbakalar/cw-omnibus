@@ -53,7 +53,7 @@ public class ActionModeHelper implements ActionMode.Callback,
     inflater.inflate(R.menu.context, menu);
     mode.setTitle(R.string.context_title);
 
-    return(true);
+     return(true);
   }
 
   @Override
